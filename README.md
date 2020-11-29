@@ -2,14 +2,18 @@ Teste desenvolvido para a empresa Coderockr
 
 ### Requisitos
 
-PHP 7.4.12
-Mysql 8.0.22
+PHP 7.4.12 
+Mysql 8.0.22 
 
 Laravel 8.*
 
 ### Instruções
 
 - Criar um banco para o projeto
+- composer install (Instala as dependências)
+- Adicionar as informações do banco no arquivo .env
+- php artisan key:generate (Gera key do projeto)
+- php artisan jwt:secret (Gera key para o jwt)
 - php artisan migrate (Criar tabelas no banco)
 - php arisan serve (Iniciar aplicação no servidor)
 
